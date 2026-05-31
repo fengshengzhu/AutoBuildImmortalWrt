@@ -43,7 +43,6 @@ echo "$(date '+%Y-%m-%d %H:%M:%S') - Starting build process..."
 
 
 # 定义所需安装的包列表 下列插件你都可以自行删减
-PACKAGES=""
 PACKAGES="$PACKAGES curl luci luci-i18n-base-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-firewall-zh-cn"
 PACKAGES="$PACKAGES luci-theme-argon"
@@ -53,7 +52,7 @@ PACKAGES="$PACKAGES luci-i18n-package-manager-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-mwan3-zh-cn"
-
+PACKAGES="$PACKAGES luci-i18n-zerotier-zh-cn"
 
 # 第三方软件包 合并
 # ======== shell/apk-custom-packages.sh =======
